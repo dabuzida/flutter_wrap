@@ -16,10 +16,10 @@ class GoWrap extends StatelessWidget {
         // verticalDirection: VerticalDirection.up,
         // alignment: WrapAlignment.start, // d
         // alignment: WrapAlignment.center,
-        // alignment: WrapAlignment.end,
+        alignment: WrapAlignment.end,
         // alignment: WrapAlignment.spaceAround,
         // alignment: WrapAlignment.spaceBetween,
-        alignment: WrapAlignment.spaceEvenly,
+        // alignment: WrapAlignment.spaceEvenly,
         // crossAxisAlignment: WrapCrossAlignment.start, // d
         // crossAxisAlignment: WrapCrossAlignment.center,
         // crossAxisAlignment: WrapCrossAlignment.end,
@@ -30,7 +30,7 @@ class GoWrap extends StatelessWidget {
           Container(width: 50, height: 50, color: Colors.yellow),
           Container(width: 50, height: 50, color: Colors.black),
           Container(width: 50, height: 50, color: Colors.pink),
-          Container(width: 50, height: 50, color: Colors.tealAccent[700]),
+          Container(width: 50, height: 50, color: Color(0xFF00BFA5)),
           Container(width: 50, height: 50, color: Colors.purpleAccent[700]),
           Container(width: 50, height: 50, color: Colors.pinkAccent[700]),
           Container(width: 50, height: 50, color: Colors.blueAccent[700]),
