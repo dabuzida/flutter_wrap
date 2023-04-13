@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_wrap/go_wrap.dart';
+
+import 'my_wrap.dart';
 
 void main() => runApp(const MyApp());
 
@@ -28,7 +29,7 @@ class MyScreen extends StatelessWidget {
         backgroundColor: Colors.teal,
         centerTitle: true,
       ),
-      body: const GoWrap(),
+      body: const MyWrap(),
     );
   }
 }
